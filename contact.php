@@ -40,15 +40,7 @@
 	.card{
 		width:400px;
 		margin-left:20px;
-}
-.img-circle person{
-	width:100%;
-}
-
-.card-text{
-	align:left;
-}
-	
+	}
   
 		</style>
 	</head>
@@ -58,25 +50,31 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item p-2">
-						<a class="nav-link text-white text-muted" href="#">Home</a>
-					</li>
-					<li class="nav-item p-2">
-						<a class="nav-link text-white" href="contact.php">Contacts</a>
-					</li>
-					<li class="nav-item p-2">
-						<a class="nav-link text-white " href="about.php">About Us</a>
-					</li>
-					<li class="nav-item p-2">
-						<a class="nav-link text-white btn btn-outline-secondary" data-toggle="modal" data-target="#myModal1">Admin</a>
-					</li>
-					<li class="nav-item p-2">
-						<a class="nav-link text-white btn btn-outline-secondary" data-toggle="modal" data-target="#myModal3">Security</a>
-					</li>
+				<li class="nav-item">
+                <a class="nav-link" href= "index.html" >Home</a>
+            </li>
+					<li class="nav-item">
+                <a class="nav-link" href="#what-we-do">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team-member">Developers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+			<li class="nav-item">
+                <button type="button" class="btn btn-outline-success m-2 p-2 pl- pr-1">Society Admin</button>
+            </li>
+			<li class="nav-item">
+                <button type="button" class="btn btn-outline-success m-2 p-2 pl- pr-1">Securiy Admin</button>
+            </li>
+			
 				</ul>
-			</div>
 		</nav>
 		<div class="container text-center text-light">
   <h1><b>Important Contacts</b></h1>
@@ -109,20 +107,21 @@
   <br/>
 			<div class="row justify-content-center p-5 ">
 				<div class="column">
+					
 						
 						<!-- The Modal -->
-						<div class="modal fade" id="myModal4">
-							<div class="modal-dialog modal-dialog-centered">
+						<div class="modal fade" id="myModal4" >
+							<div class="modal-dialog modal-dialog-centered" style = "width:270px">
 								<div class="modal-content bg-light text-dark">
 									<div class="container text-dark ">
-									<h2>Secretary</h2>
+									<h4>Secretary</h4>
 								  <!--<p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>-->
-										<div class="card">
-										<img class="img-circle person" src="images/M0.jpg" alt="Card image" style="width:100%">
+										<div class="card" style="width:240px">
+										<img class="card-img-top" src="images/M0.jpg" alt="Card image" style="width:100%">
 											<div class="card-body">
-										<h4 class="card-title">Name: Harsh Singh</h4>
-										<p class="card-text"> <h4>Phone <i class="fa fa-mobile-phone" style="font-size:24px"></i> :+91 7276087434</h4></p>
-										<p class="card-text">  <h4> E-Mail <i class="fa fa-envelope" style="font-size:24px"></i> :akash13201@gmail.com</h4></p>
+										<h5 class="card-title">Name: Sam Billings</h5>
+										<p class="card-text"> <h6>Phone <i class="fa fa-mobile-phone" style="font-size:16px"></i> :+91 7276087434</h4></p>
+										<p class="card-text">  <h6> E-Mail <i class="fa fa-envelope" style="font-size:16px"></i> :Billings35@gmail.com</h4></p>
 											</div>
 										</div>
 									</div>
@@ -131,24 +130,54 @@
 						</div>
 				</div>
 			</div>
+		</div>
+
 		
 			<div class="row justify-content-center p-5 ">
 				<div class="column">
 					
 						
 						<!-- The Modal -->
-						<div class="modal fade" id="myModal5">
-							<div class="modal-dialog modal-dialog-centered">
+						<div class="modal fade" id="myModal5" >
+							<div class="modal-dialog modal-dialog-centered" style = "width:270px">
 								<div class="modal-content bg-light text-dark">
 									<div class="container text-dark ">
-									<h2>Chairman</h2>
+									<h4>Chairman</h4>
 								  <!--<p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>-->
-										<div class="card">
-										<img class="img-circle person" src="images/M0.jpg" alt="Card image" style="width:100%">
+										<div class="card" style="width:240px">
+										<img class="card-img-top" src="images/M3.jpg" alt="Card image" style="width:100%">
 											<div class="card-body">
-										<h4 class="card-title">Name: Harsh Singh</h4>
-										<p class="card-text"> <h4>Phone <i class="fa fa-mobile-phone" style="font-size:24px"></i> :+91 7276087434</h4></p>
-										<p class="card-text">  <h4> E-Mail <i class="fa fa-envelope" style="font-size:24px"></i> :akash13201@gmail.com</h4></p>
+										<h5 class="card-title">Name: Chris Jordan</h5>
+										<p class="card-text"> <h6>Phone <i class="fa fa-mobile-phone" style="font-size:16px"></i> :+91 7276087434</h4></p>
+										<p class="card-text">  <h6> E-Mail <i class="fa fa-envelope" style="font-size:16px"></i> :Jordan35@gmail.com</h4></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+			<div class="row justify-content-center p-5 ">
+				<div class="column">
+					
+						
+						<!-- The Modal -->
+						<div class="modal fade" id="myModal6" >
+							<div class="modal-dialog modal-dialog-centered" style = "width:270px">
+								<div class="modal-content bg-light text-dark">
+									<div class="container text-dark ">
+									<h4>Treasurer</h4>
+								  <!--<p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>-->
+										<div class="card" style="width:240px">
+										<img class="card-img-top" src="images/M0.jpg" alt="Card image" style="width:100%">
+											<div class="card-body">
+										<h5 class="card-title">Name: Gary Ballance</h5>
+										<p class="card-text"> <h6>Phone <i class="fa fa-mobile-phone" style="font-size:16px"></i> :+91 7276087434</h4></p>
+										<p class="card-text">  <h6> E-Mail <i class="fa fa-envelope" style="font-size:16px"></i> :ballance35@gmail.com</h4></p>
 											</div>
 										</div>
 									</div>
@@ -164,18 +193,18 @@
 					
 						
 						<!-- The Modal -->
-						<div class="modal fade" id="myModal6">
-							<div class="modal-dialog modal-dialog-centered">
+						<div class="modal fade" id="myModal7" >
+							<div class="modal-dialog modal-dialog-centered" style = "width:270px">
 								<div class="modal-content bg-light text-dark">
 									<div class="container text-dark ">
-									<h2>Treasurer</h2>
+									<h4>Treasurer</h4>
 								  <!--<p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>-->
-										<div class="card">
-										<img class="img-circle person" src="images/M0.jpg" alt="Card image" style="width:100%">
+										<div class="card" style="width:240px">
+										<img class="card-img-top" src="images/M3.jpg" alt="Card image" style="width:100%">
 											<div class="card-body">
-										<h4 class="card-title">Name: Gary Ballance</h4>
-										<p class="card-text"> <h4>Phone <i class="fa fa-mobile-phone" style="font-size:24px"></i> :+91 7276087434</h4></p>
-										<p class="card-text">  <h4> E-Mail <i class="fa fa-envelope" style="font-size:24px"></i> :ballance35@gmail.com</h4></p>
+										<h5 class="card-title">Name: Paul Collingwood</h5>
+										<p class="card-text"> <h6>Phone <i class="fa fa-mobile-phone" style="font-size:16px"></i> :+91 7276087434</h4></p>
+										<p class="card-text">  <h6> E-Mail <i class="fa fa-envelope" style="font-size:16px"></i> :paulc35@gmail.com</h4></p>
 											</div>
 										</div>
 									</div>
@@ -185,31 +214,6 @@
 				</div>
 			</div>
 		</div>
-		
-			<div class="row justify-content-center p-5 ">
-				<div class="column">
-						
-						<!-- The Modal -->
-						<div class="modal fade" id="myModal7">
-							<div class="modal-dialog modal-dialog-centered">
-								<div class="modal-content bg-light text-dark">
-									<div class="container text-dark ">
-									<h2>Security Head</h2>
-								  <!--<p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>-->
-										<div class="card">
-										<img class="img-circle person" src="images/M0.jpg" alt="Card image" style="width:100%">
-											<div class="card-body">
-										<h4 class="card-title">Name: John Smith</h4>
-										<p class="card-text"> <h4>Phone <i class="fa fa-mobile-phone" style="font-size:24px"></i> :+91 7276087434</h4></p>
-										<p class="card-text">  <h4> E-Mail <i class="fa fa-envelope" style="font-size:24px"></i> :JSmith201gmail.com</h4></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-				</div>
-			</div>
 		</div>
 		
 	</div>
@@ -218,7 +222,6 @@
     
  
 <br/>
- <span class="link">For Going Back to Homepage <a href="index.php" >Click Here! </a></span>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
