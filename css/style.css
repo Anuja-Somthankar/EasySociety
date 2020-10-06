@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background: #222 url("images/apt3.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+.padd{
+padding-top: 50px;
+padding-bottom: 30px;
+}
+::placeholder {
+color: red;
+opacity: 1;
+}
+.form-control{
+background:transparent;
+border-radius:0px;
+border:0px;
+border-bottom: 1px solid white;
+color:white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
