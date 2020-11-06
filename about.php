@@ -158,7 +158,8 @@
     </div>
   </div>
 </div>
- <span class="link">For Going Back to Homepage <a href="index.php" >Click Here! </a></span>
+ 
+<span class="link">For Going Back to Homepage <a href="index.php" >Click Here! </a></span>
 
 
 </body>
